@@ -1,0 +1,111 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background-color: black;
+}
+
+.main {
+	position: relative;
+	background-color: rgba(132, 19, 161, 0.647);
+	height: 500px;
+	width: 500px;
+	top: 0%;
+	left: 50%;
+	transform: translate(-50%, 10%);
+	border: 5px solid rgb(212, 111, 255);
+	border-radius: 20px;
+}
+
+#longurl {
+	position: relative;
+	top: 40%;
+	left: 10%;
+	height: 40px;
+	width: 60%;
+	border: 2px solid black;
+	border-radius: 20px;
+	padding-left: 10px;
+	padding-right: 20px;
+	font-size: large;
+	font-family: monospace;
+	font-weight: bold;
+}
+
+#shorten {
+	position: relative;
+	top: 40%;
+	left: 12%;
+	height: 40px;
+	width: 100px;
+	border: 2px solid black;
+	border-radius: 10px;
+	font-size: large;
+	font-weight: bold;
+	font-family: monospace;
+	color: white;
+	background-color: purple;
+}
+
+#shorten:hover {
+	background-color: black;
+}
+
+#shorturl {
+	position: relative;
+	top: 45%;
+	left: 10%;
+	height: 40px;
+	width: 62%;
+	border: 2px solid black;
+	border-radius: 20px;
+	padding-left: 10px;
+	padding-right: 47px;
+	font-size: large;
+	font-family: monospace;
+	font-weight: bold;
+}
+
+#copy {
+	position: relative;
+	top: 45.6%;
+	left: 0%;
+	height: 35px;
+	width: 35px;
+	border: 2px solid black;
+	border-radius: 10px;
+	color: white;
+	background-color: purple;
+}
+
+#copy:hover {
+	background-color: black;
+}
+
+.main p {
+	/* background-color: white; */
+	position: relative;
+	top: 30%;
+	left: 13%;
+	height: 60px;
+	width: 80%;
+	font-size: 50px;
+	font-family: monospace;
+	font-weight: bold;
+	color: rgb(136, 160, 0);
+}
+
+@media only screen and (max-width: 555px) {
+	.main {
+		width: 80%;
+	}
+
+	.main p {
+		left: 8%;
+		text-align: center;
+		margin-top: -25px;
+        padding-bottom: 15px; 
+	}
+}
